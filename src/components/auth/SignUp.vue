@@ -100,7 +100,7 @@ export default {
 
       passwordConfirmation: {
         required,
-        sameAsPassword: sameAs("password")
+        sameAs: sameAs("password")
       }
     };
   },

@@ -14,6 +14,8 @@ Vue.use(VuelidateErrorExtractor, {
         numeric: "{attribute} deve conter um valor númerico",
         email: "{attribute} não é um e-mail válido.",
         requiredUnless: "{attribute} é obrigatório!",
+        minLength: "{attribute} deve conter no minimo {min} caracteres!",
+        sameAs: "{attribute} não confere"
     }
 });
 

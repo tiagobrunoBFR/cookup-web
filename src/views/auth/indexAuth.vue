@@ -29,7 +29,7 @@
                   <label class="tab" for="tab-2">Cadastre-se</label>
 
                   <div class="login-form">
-                    <sign-in @do-sign-in="doSignIn" v-if="islogin" />
+                    <sign-in v-if="islogin" />
                     <sign-up v-if="!islogin" />
                   </div>
                 </div>
