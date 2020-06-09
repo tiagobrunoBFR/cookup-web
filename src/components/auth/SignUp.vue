@@ -80,7 +80,7 @@
 </template>
 
 <script>
-import { minLength, required, sameAs } from "vuelidate/lib/validators";
+import { minLength, required, sameAs, email } from "vuelidate/lib/validators";
 
 export default {
   name: "SignUp",
@@ -91,6 +91,7 @@ export default {
         required
       },
       email: {
+        email,
         required
       },
       password: {
